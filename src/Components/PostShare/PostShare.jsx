@@ -53,7 +53,7 @@ const PostShare = () => {
 
                 {image && (
                     <div className="previewImage">
-                        <XCircleIcon onClick={()=>setImage(null)} className='h-6 w-6'></XCircleIcon>
+                        <XCircleIcon onClick={()=>setImage(null)} className='h-9 w-7'></XCircleIcon>
                         <img src={image.image} alt="" />
                     </div>
                 )}
