@@ -23,7 +23,7 @@ const ProfileCard = () => {
                     <div className='vl'></div>
                     <div className="follow">
                         <span>2</span>
-                        <span className='text-5xl'>Follower</span>
+                        <span>Follower</span>
                     </div>
                 </div>
                 <hr />
