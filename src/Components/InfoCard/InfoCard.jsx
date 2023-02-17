@@ -6,9 +6,34 @@ const InfoCard = () => {
     return (
         <div className='InfoCard'>
             <div className="infoHead">
-                <h4>Your Info</h4>
-                <PencilSquareIcon></PencilSquareIcon>
+                <h4 className='font-bold'>Your Info</h4>
+                <PencilSquareIcon className='h-6 w-6'></PencilSquareIcon>
             </div>
+            <div className='info'>
+                <span>
+                    <b>status</b>
+                </span>
+                <span>
+                    in Relationship
+                </span>
+            </div>
+            <div className='info'>
+                <span>
+                    <b>Lives in</b>
+                </span>
+                <span>
+                   Chittagong
+                </span>
+            </div>
+            <div className='info'>
+                <span>
+                    <b>Works at</b>
+                </span>
+                <span>
+                   Softwer Engeeniars
+                </span>
+            </div>
+            <button className='button'>Log out</button>
         </div>
     );
 };
