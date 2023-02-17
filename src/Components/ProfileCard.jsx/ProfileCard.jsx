@@ -17,17 +17,17 @@ const ProfileCard = () => {
                 <span>Toms Krick</span>
                 <span>Junior Web developer</span>
             </div>
-            <div className="followStatus">
+            <div className="followStatus text-[12px]">
                 <hr />
                 <div>
                     <div className="follow">
-                        <span>9,032</span>
-                        <span>Followings</span>
+                        <span className='text-gray-500'>9,032</span>
+                        <span className='font-bold'>Followings</span>
                     </div>
                     <div className='vl'></div>
                     <div className="follow">
-                        <span>2</span>
-                        <span>Followerers</span>
+                        <span className='text-gray-500'>2</span>
+                        <span className='font-bold'>Followerers</span>
                     </div>
 
                     {ProfilePage && (
@@ -36,8 +36,8 @@ const ProfileCard = () => {
 
                             </div>
                             <div className="follow">
-                                <span>3</span>
-                                <span>Posts</span>
+                                <span className='text-gray-500'>3</span>
+                                <span className='font-bold'>Posts</span>
                             </div>
                         </>
                     )}
