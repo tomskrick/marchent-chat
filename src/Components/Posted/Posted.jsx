@@ -14,7 +14,7 @@ const Posted = ({ data }) => {
                 <img src={comment} alt="" />
                 <img src={share} alt="" />
             </div>
-            <span>{data.likes}Likes</span>
+            <span className='text-zinc-400 text-[12px]'>{data.likes}Likes</span>
             <div className="details">
                 <span><b>{data.name}</b></span>
                 <span>{ data.desc}</span>

@@ -4,3 +4,8 @@
     grid-template-columns: 19rem auto 18rem;
     gap: 1rem;
 }
+.Profile-center{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

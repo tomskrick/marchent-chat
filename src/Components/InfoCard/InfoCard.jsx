@@ -7,11 +7,13 @@ const InfoCard = () => {
         <div className='InfoCard'>
             <div className="infoHead">
                 <h4 className='font-bold'>Your Info</h4>
-                <PencilSquareIcon className='h-6 w-6'></PencilSquareIcon>
+                <div>
+                    <PencilSquareIcon className='h-6 w-6'></PencilSquareIcon>
+                </div>
             </div>
             <div className='info'>
                 <span>
-                    <b>status</b>
+                    <b>status </b>
                 </span>
                 <span>
                     in Relationship
@@ -19,21 +21,21 @@ const InfoCard = () => {
             </div>
             <div className='info'>
                 <span>
-                    <b>Lives in</b>
+                    <b>Lives  </b>
                 </span>
                 <span>
-                   Chittagong
+                  in Chittagong
                 </span>
             </div>
             <div className='info'>
                 <span>
-                    <b>Works at</b>
+                    <b>Works  </b>
                 </span>
                 <span>
-                   Softwer Engeeniars
+                   at Google
                 </span>
             </div>
-            <button className='button'>Log out</button>
+            <button className='button logout-button'>Log out</button>
         </div>
     );
 };
